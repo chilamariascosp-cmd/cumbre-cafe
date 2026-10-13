@@ -1,0 +1,15 @@
+{
+  "name": "cumbre-cafe",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Tienda de café colombiano: web (React + Vite) y app móvil (Expo) con núcleo compartido",
+  "scripts": {
+    "install:all": "npm --prefix packages/core install && npm --prefix web install && npm --prefix mobile install",
+    "test": "npm --prefix packages/core test",
+    "typecheck": "npm --prefix packages/core run typecheck && npm --prefix web run typecheck && npm --prefix mobile run typecheck",
+    "build:web": "npm --prefix web run build",
+    "dev:web": "npm --prefix web run dev",
+    "dev:mobile": "npm --prefix mobile run start",
+    "deploy:check": "bash scripts/deploy.sh"
+  }
+}

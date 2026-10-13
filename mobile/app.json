@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Cumbre Café",
+    "slug": "cumbre-cafe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": { "backgroundColor": "#14211A" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "co.cumbre.cafe" },
+    "android": {
+      "package": "co.cumbre.cafe",
+      "adaptiveIcon": { "backgroundColor": "#14211A", "foregroundImage": "./assets/icon.png" }
+    },
+    "web": { "bundler": "metro", "output": "single" }
+  }
+}
